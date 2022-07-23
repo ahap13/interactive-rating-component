@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Site Link
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://ahap13.github.io/interactive-rating-component/
 
 ## My process
 
@@ -45,4 +45,4 @@ I chose to use a div for the card itself, and then use separate child divs to ho
 
 ## My links
 
-- LinkedIn - Alec Hapiak https://www.linkedin.com/alec-hapiak
+- LinkedIn - Alec Hapiak https://www.linkedin.com/in/alec-hapiak/
