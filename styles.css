@@ -1,0 +1,124 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: #fff;
+    font-family: "Overpass", sans-serif;
+}
+
+/* Card */
+
+.card {
+    background-color: hsl(214, 21%, 15%);
+    border-radius: 25px;
+    box-sizing: border-box;
+    height: 365px;
+    margin: 12% auto;
+    padding: 30px;
+    width: 365px;
+}
+
+/* Rating */
+
+.star {
+    background-color: hsl(213, 20%, 24%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+}
+
+.star-img {
+    margin: auto;
+}
+
+h2 {
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: .85rem;
+    line-height: 1.6;
+    margin-top: -10px;
+}
+
+/* Buttons */
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 20px -10px;
+    width: 100%;
+}
+
+#b1, #b2, #b3, #b4, #b5 {
+    appearance: none;
+}
+
+label {
+    background-color: hsl(213, 20%, 24%);
+    border-radius: 100%;
+    color: hsl(217, 12%, 63%);
+    padding: 12px 18px;
+}
+
+.b1-label {
+    padding: 12px 20px;
+}
+
+label:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: #fff;
+}
+
+input[type="radio"]:checked + label {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+.submit-button {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-family: "Overpass", sans-serif;
+    font-size: .8rem;
+    letter-spacing: .2rem;
+    margin-top: 8px;
+    padding: 12px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #fff;
+    color:hsl(25, 97%, 53%)
+}
+
+/* Thank you card */
+
+.thank-you {
+    text-align: center;
+}
+
+.ty-img {
+    margin: 12px 8px 23px 0;
+    width: 145px;
+}
+
+.rating-msg {
+    background-color: hsl(213, 20%, 24%);
+    border-radius: 25px;
+    color: hsl(25, 84%, 43%);
+    margin: auto;
+    padding: 3px;
+    width: 50%;
+}
+
+/* Hide class to change display at submit */
+
+.hide {
+    display: none;
+}
