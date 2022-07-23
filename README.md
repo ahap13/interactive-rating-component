@@ -39,7 +39,6 @@ I chose to use a div for the card itself, and then use separate child divs to ho
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - JavaScript
 - jQuery - JS library
 
